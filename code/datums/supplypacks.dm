@@ -693,34 +693,32 @@ var/list/all_supply_groups = list("Supplies","Clothing","Security","Hospitality"
 /datum/supply_packs/space_suits
 	name = "Space suit"
 	contains = list(/obj/item/clothing/suit/space,
-					/obj/item/clothing/head/helmet/space,
-					/obj/item/weapon/tank/oxygen,
-					/obj/item/clothing/mask/breath)
-	cost = 150
+					/obj/item/clothing/head/helmet/space)
+	cost = 200
 	containertype = /obj/structure/closet/crate/basic
 	containername = "space suit crate"
 	group = "Clothing"
 
 /datum/supply_packs/vox_supply
-	name = "Vox pressure suit"
+	name = "Vox supplies"
 	contains = list(/obj/item/clothing/suit/space/vox/civ,
 					/obj/item/clothing/head/helmet/space/vox/civ,
 					/obj/item/weapon/tank/nitrogen,
 					/obj/item/clothing/mask/breath/vox)
 	cost = 100
 	containertype = /obj/structure/closet/crate/basic
-	containername = "vox pressure suit crate"
+	containername = "vox supplies crate"
 	group = "Clothing"
 
 /datum/supply_packs/plasmaman_supply
-	name = "Plasmaman suit"
+	name = "Plasmaman supplies"
 	contains = list(/obj/item/clothing/suit/space/plasmaman,
 					/obj/item/clothing/head/helmet/space/plasmaman,
 					/obj/item/weapon/tank/plasma/plasmaman,
 					/obj/item/clothing/mask/breath)
 	cost = 100
 	containertype = /obj/structure/closet/crate/basic
-	containername = "plasmaman suit crate"
+	containername = "plasmaman supplies crate"
 	group = "Clothing"
 
 /datum/supply_packs/grey_supply
